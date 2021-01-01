@@ -27,4 +27,11 @@
 - `Angular.json` -- general configuration of an application
 
 
-## Build and Run Commands
+## Notes
+
+- Component should be called inside `index.html` by tags `<component></component>`
+- Keyword `export` it TS class is analog of `public` in `C#`
+- Property `template` of component -- is a view which user sees
+- Property `selector` of component -- is how we call component inside `index.html`, e.g `<component></component>`
+- Property `styles` of component -- keeps particular styles.
+- Property `templateUrl` of component -- specifies html view of component
