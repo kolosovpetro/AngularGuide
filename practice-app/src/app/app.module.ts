@@ -7,7 +7,7 @@ import { ChildComponent } from './child.component';
 
 @NgModule({
   declarations: [
-    AppComponent, ChildComponent, TestcomponentComponent
+    AppComponent, ChildComponent
   ],
   imports: [
     BrowserModule,
