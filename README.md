@@ -26,6 +26,16 @@
 - `tsconfig.json` -- configuration of TypesScript compiler
 - `Angular.json` -- general configuration of an application
 
+## Data bindings
+
+## Road map
+
+- https://metanit.com/web/angular2/2.5.php
+- https://www.techiediaries.com/angular-11-tutorial-example-rest-crud-http-get-httpclient/
+
+## To do
+
+- Add `.gitattributes` file
 
 ## Notes
 
