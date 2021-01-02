@@ -1,0 +1,11 @@
+.default-color {
+  width: 50px;
+  height: 50px;
+  background-color: orangered;
+}
+
+.changed-color {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+}

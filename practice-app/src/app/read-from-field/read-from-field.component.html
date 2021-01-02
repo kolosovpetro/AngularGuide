@@ -10,3 +10,12 @@
 <button (click)="onClick()">Click me</button>
 <div>Firstname from field after click: {{divFirstname}}</div>
 <div>Lastname from field after click: {{divLastName}}</div>
+<form>
+  <label>
+    <input type="text" [value]="divFirstname">
+  </label>
+  <br>
+  <label>
+    <input type="text" [value]="divLastName">
+  </label>
+</form>

@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { CountComponent } from './count/count.component';
 import { ReadFromFieldComponent } from './read-from-field/read-from-field.component';
 import {FormsModule} from '@angular/forms';
+import { ChangeColorComponent } from './change-color/change-color.component';
 
 @NgModule({
   declarations: [
-    AppComponent, CountComponent, ReadFromFieldComponent
+    AppComponent, CountComponent, ReadFromFieldComponent, ChangeColorComponent
   ],
   imports: [
     BrowserModule,
