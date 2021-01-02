@@ -16,6 +16,7 @@
 - Create new angular application, use command `ng new hello-world`
 - Build application command is `ng build`
 - Run application with `ng serve --open`
+- Command to create new component: `ng generate component [component_name]`
 
 ## Structure of an Angular application
 
@@ -26,14 +27,16 @@
 - `tsconfig.json` -- configuration of TypesScript compiler
 - `Angular.json` -- general configuration of an application
 
-## Data bindings
+## To do
+
+- Write a program which updates div text with text from fields
+- Write a program which updates field with text from other fields
+
 
 ## Road map
 
 - https://metanit.com/web/angular2/2.5.php
 - https://www.techiediaries.com/angular-11-tutorial-example-rest-crud-http-get-httpclient/
-
-## To do
 
 - Add `.gitattributes` file
 
