@@ -32,6 +32,7 @@
 - Write a program which updates div text with text from fields
 - Write a program which updates field with text from other fields
 - Write simple menu application, see https://angular.io/guide/router-tutorial
+- Write program which consumes API
 
 
 ## Road map
