@@ -25,6 +25,7 @@ export class AppComponent implements OnInit {
 
     ngOnInit(): void {
         // this.http.get<User>('assets/user.json').subscribe((data: User) => this.user = data);
-        this.http.get<Movie>('assets/user.json').subscribe((data: Movie) => this.movie = data);
+        this.http.get<Movie>(this.url).subscribe((data: Movie) => this.movie = data,
+            (error) => console.log(error));
     }
 }
