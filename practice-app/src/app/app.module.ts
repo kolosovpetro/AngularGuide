@@ -4,10 +4,11 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChildComponent } from './child.component';
+import { CountComponent } from './count/count.component';
 
 @NgModule({
   declarations: [
-    AppComponent, ChildComponent
+    AppComponent, ChildComponent, CountComponent
   ],
   imports: [
     BrowserModule,
