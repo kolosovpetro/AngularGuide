@@ -1,0 +1,6 @@
+<p>user-list works!</p>
+<h3>List of users (click to display)</h3>
+<button (click)="displayUsers()">Display users</button>
+<div *ngFor="let item of users">
+  <div>{{item.firstName}}, {{item.lastName}}, {{item.email}}</div>
+</div>
