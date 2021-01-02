@@ -8,10 +8,11 @@ import { ReadFromFieldComponent } from './read-from-field/read-from-field.compon
 import {FormsModule} from '@angular/forms';
 import { ChangeColorComponent } from './change-color/change-color.component';
 import { UserListComponent } from './user-list/user-list.component';
+import { ButtonChangesStylesComponent } from './button-changes-styles/button-changes-styles.component';
 
 @NgModule({
   declarations: [
-    AppComponent, CountComponent, ReadFromFieldComponent, ChangeColorComponent, UserListComponent
+    AppComponent, CountComponent, ReadFromFieldComponent, ChangeColorComponent, UserListComponent, ButtonChangesStylesComponent
   ],
   imports: [
     BrowserModule,
