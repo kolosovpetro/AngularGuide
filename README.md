@@ -35,6 +35,10 @@
 - Write simple menu application, see https://angular.io/guide/router-tutorial
 - Write program which consumes API (remember to include CORS in ASP project)
 
+## How to
+
+- Create routes https://angular.io/guide/router-tutorial
+
 
 ## Road map
 
