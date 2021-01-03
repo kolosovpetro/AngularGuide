@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {User} from './user';
 import {Movie} from './movie';
 import {MoviesService} from './movies.service';
 
@@ -8,6 +7,7 @@ import {MoviesService} from './movies.service';
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
     title = 'http-request';
 
@@ -15,22 +15,24 @@ export class AppComponent {
     movieId: number;
 
     // @ts-ignore
-    fieldMovieId: number;
-
-    // @ts-ignore
-    user: User;
-
-    // @ts-ignore
     movie: Movie;
+
+    // @ts-ignore
+    movies: Movie[];
 
 
     constructor(private movService: MoviesService) {
     }
 
     updateMovie(): void {
-
         this.movService.getMovie(this.movieId).subscribe((data: Movie) => {
             this.movie = data;
+        });
+    }
+
+    displayMovies(): void {
+        this.movService.getAllMovies().subscribe((data: Movie[]) => {
+            this.movies = data;
         });
     }
 

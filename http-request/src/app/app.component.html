@@ -1,7 +1,11 @@
 <div>
-  <p>Имя пользователя: {{user?.name}}</p>
-  <p>Возраст пользователя: {{user?.age}}</p>
-  <p>Read Title From api: {{movie?.title}}</p>
-  <input type="text" [(ngModel)]="movieId" placeholder="enter movie id">
-  <button (click)="updateMovie()">Update movie title</button>
+    <p>Read Title From api: {{movie?.title}}</p>
+    <input type="text" [(ngModel)]="movieId" placeholder="enter movie id">
+    <br>
+    <button (click)="updateMovie()">Update movie title</button>
+    <br>
+    <button (click)="displayMovies()">Click to expand all movies</button>
+    <div *ngFor="let movie of movies">
+        <div>{{movie.title}}</div>
+    </div>
 </div>
