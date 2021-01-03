@@ -1,5 +1,7 @@
 <div>
   <p>Имя пользователя: {{user?.name}}</p>
   <p>Возраст пользователя: {{user?.age}}</p>
-  <p>Title: {{movie?.title}}</p>
+  <p>Read Title From api: {{movie?.title}}</p>
+  <input type="text" [(ngModel)]="movieId" placeholder="enter movie id">
+  <button (click)="updateMovie()">Update movie title</button>
 </div>
