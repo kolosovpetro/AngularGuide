@@ -8,4 +8,17 @@
     <div *ngFor="let movie of movies">
         <div>{{movie.title}}</div>
     </div>
+    <div>
+        <div>Post request</div>
+        <input type="text" [(ngModel)]="postTitle" placeholder="enter movie title">
+        <br>
+        <input type="text" [(ngModel)]="year" placeholder="enter movie year">
+        <br>
+        <input type="text" [(ngModel)]="ageRestriction" placeholder="enter movie age restriction">
+        <br>
+        <input type="text" [(ngModel)]="price" placeholder="enter movie price">
+        <br>
+        <button (click)="sendPostRequest()">Post new movie</button>
+    </div>
+    <div>Post response: {{response}}</div>
 </div>

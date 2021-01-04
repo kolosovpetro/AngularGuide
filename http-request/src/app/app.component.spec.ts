@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'http-request'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('http-request');
+    expect(app.postTitle).toEqual('http-request');
   });
 
   it('should render title', () => {
