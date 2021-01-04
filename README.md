@@ -17,6 +17,7 @@
 - Build application command is `ng build`
 - Run application with `ng serve --open`
 - Command to create new component: `ng generate component [component_name]`
+- Generate component in specific folder `ng generate component folder/component --flat`
 - Command to create service: `ng g service api`
 
 ## Structure of an Angular application
