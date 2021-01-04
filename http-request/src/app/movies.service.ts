@@ -9,7 +9,7 @@ import {CreateMovieDto} from './models/create-movie-dto';
 })
 export class MoviesService {
 
-    private url = 'https://movies-rest-api-demo.herokuapp.com/api/movies/';
+    private url = 'https://cqrs-movies-api.herokuapp.com/api/movies/';
 
     constructor(private httpClient: HttpClient) {
     }
